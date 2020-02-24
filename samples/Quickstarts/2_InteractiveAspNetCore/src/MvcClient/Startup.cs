@@ -10,7 +10,7 @@ namespace MvcClient
     {
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddRazorPages();
+            services.AddControllersWithViews();
 
             JwtSecurityTokenHandler.DefaultMapInboundClaims = false;
 
@@ -52,7 +52,7 @@ namespace MvcClient
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapRazorPages()
+                endpoints.MapDefaultControllerRoute()
                     .RequireAuthorization();
             });
         }
