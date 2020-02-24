@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "src\Client\Client
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcClient", "src\MvcClient\MvcClient.csproj", "{BF5923FF-9E93-4C01-93C2-8CE7A3F62D12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesClient", "RazorPagesClient\RazorPagesClient.csproj", "{44D353D7-9421-4851-9959-E2420DF97C8B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesClient", "src\RazorPagesClient\RazorPagesClient.csproj", "{44D353D7-9421-4851-9959-E2420DF97C8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
